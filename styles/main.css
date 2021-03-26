@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Righteous&display=swap');
+
+/* Reset default values */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* For debugging */
+/* header, section, aside, footer, article {
+    outline: 1px solid red;
+} */
+
+nav ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    padding: 15px;
+    font-weight: 900;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: rgb(39, 70, 122);
+    transition: background .5s;
+}
+
+body {
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    font-family: 'Gloria Hallelujah', verdana;
+    letter-spacing: 3px;
+}
+
+main p {
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+main img {
+    box-shadow: 10px 10px 20px #000;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section p {
+    width: 50%;
+    display: inline-block;
+}
+
+#contact a {
+    padding: 10px;
+}
+
+#profile img {
+    background-color: rgb(29 79 99);
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+h1 {
+    display: inline;
+    position: absolute;
+    padding: 0 7px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+header {
+    background-color: rgb(28, 43, 69);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+section {
+    height: 100vh;
+}
+
+footer {
+    background-color: rgb(209, 223, 240);
+    clear: both;
+}
+
+article {
+    height: 100%;
+    padding-top: 90px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+footer img {
+    margin: 10px 20px;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.welcome {
+    background: url("../images/welcome.jpg") no-repeat center center;
+    opacity: 0.8;
+    height: 100vh;
+    background-size: cover;
+}
+
+.welcome p {
+    top: 20%;
+    left: 7%;
+    display: inline;
+    position: relative;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+h1 a {    
+    display: block;
+}
